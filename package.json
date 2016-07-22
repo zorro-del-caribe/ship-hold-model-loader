@@ -1,0 +1,35 @@
+{
+  "name": "ship-hold-model-loader",
+  "version": "1.0.0",
+  "description": "load ship hold model from a given repository based on a convention",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zorro-del-caribe/ship-hold-models-loader.git"
+  },
+  "keywords": [
+    "ship-hold",
+    "models",
+    "dao",
+    "postgresql"
+  ],
+  "author": "Laurent Renard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zorro-del-caribe/ship-hold-models-loader/issues"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/zorro-del-caribe/ship-hold-models-loader#readme",
+  "dependencies": {
+    "app-root-path": "^1.2.1"
+  },
+  "devDependencies": {
+    "ship-hold": "^1.0.0",
+    "tape": "^4.6.0"
+  }
+}
