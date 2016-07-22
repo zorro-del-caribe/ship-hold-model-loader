@@ -32,11 +32,11 @@ module.exports = function (h){
 };
 ```
 
-then use **ship-hold-models-loader**
+then use **ship-hold-model-loader**
  
  ```javascript
  const sh = require('ship-hold')(/* options */)
- const models = require('ship-hold-models-loader')(sh) // can pass options here
+ const models = require('ship-hold-model-loader')(sh) // can pass options here
  
  models.Products === sh.model('Products'); // true
  
