@@ -1,11 +1,11 @@
-# ship-hold-models-loader
+# ship-hold-model-loader
 
 [![CircleCI](https://circleci.com/gh/zorro-del-caribe/ship-hold-models-loader.svg?style=svg)](https://circleci.com/gh/zorro-del-caribe/ship-hold-models-loader)
 load ship-hold models based on convention
 
 ## install
 
-``npm install ship-hold-models-loader``
+``npm install ship-hold-model-loader``
 
 ## usage
 
